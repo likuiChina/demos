@@ -12,6 +12,7 @@
 #import "test2.h"
 #import "test3.h"
 #import "test5.h"
+//#import "horoscope-Bridging-Header.h"
 
 
 @interface ViewController ()
@@ -57,6 +58,15 @@
 -(void)buttonClick:(UIButton *)button
 {
     NSInteger btnTag = button.tag - 100;
+    if (btnTag == 5) {
+        
+        
+        
+//        Stest6 *test6 = [[Stest6 alloc]init];
+//        [test6 testshow]
+    }
+    
+    
     NSString *strName = [NSString stringWithFormat:@"test%@",@(btnTag)];
     
     Class tmpClass = NSClassFromString(strName);

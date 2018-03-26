@@ -190,6 +190,16 @@
     
 }
 
+-(void)printSomeThing
+{
+    NSLog(@"i am test4 o--->..");
+}
+
++(void)printAll
+{
+    NSLog(@"printAll");
+}
+
 
 - (void)setNeedsNavigationBackground:(CGFloat)alpha {
     // 导航栏背景透明度设置

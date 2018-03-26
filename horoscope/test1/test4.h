@@ -10,4 +10,8 @@
 
 @interface test4 : BaseViewControl
 
+-(void)printSomeThing;
+
++(void)printAll;
+
 @end
