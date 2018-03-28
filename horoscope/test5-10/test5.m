@@ -10,6 +10,8 @@
 #import <objc/runtime.h>
 #import "test4.h"
 #import "horoscope-Bridging-Header.h"
+#import "ReactiveObjC.h"
+
 
 static NSString *key = @"kShowObjcRunTime";
 static char kUITableViewIndexKey;
@@ -17,7 +19,9 @@ static char kUITableViewIndexKey;
 typedef void(^BtnClickBlock)(NSInteger tag);
 
 @interface test5 ()
-
+{
+    RACSignal *_siganl;
+}
 @property(nonatomic, strong)UIButton *btnTest;
 
 @property(nonatomic, copy)BtnClickBlock nowBlock;
@@ -64,15 +68,21 @@ typedef void(^BtnClickBlock)(NSInteger tag);
             break;
         case 103:
         {
-            Class testClass = objc_getClass("test4");
-            test4 *class = [[testClass alloc] init];
-            [class printSomeThing];
+//            Class testClass = objc_getClass("test4");
+//            test4 *class = [[testClass alloc] init];
+//            [class printSomeThing];
+            
+            
+            [self testRac];
+            
         }
             break;
         case 104:
         {
             Stest6 *test6 = [[Stest6 alloc] init];
-            NSString *test =  [test6 showName];
+            NSString *test =  [test6 showNameWithAge:555 name:@"哈哈哈"];
+//            NSString *test =  [test6 showNameWithAge:44];
+//            NSString *test =  [test6 showName:44];
             NSLog(@"test-->>%@",test);
             
             
@@ -156,6 +166,39 @@ typedef void(^BtnClickBlock)(NSInteger tag);
     }
 }
 
+-(void)create
+{
+    // 1.创建信号
+     _siganl = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        // block调用时刻：每当有订阅者订阅信号，就会调用block。
+        // 2.发送信号
+        [subscriber sendNext:@1];
+        // 如果不在发送数据，最好发送信号完成，内部会自动调用[RACDisposable disposable]取消订阅信号。
+        [subscriber sendCompleted];
+        
+        return [RACDisposable disposableWithBlock:^{
+            // block调用时刻：当信号发送完成或者发送错误，就会自动执行这个block,取消订阅信号。
+            // 执行完Block后，当前信号就不在被订阅了。
+            NSLog(@"信号被销毁");
+        }];
+    }];
+}
+
+-(void)testRac
+{
+    
+//    [RACObserve(self, username) subscribeNext:^(NSString *newName) {
+//        NSLog(@"%@", newName);
+//    }];
+//
+    
+//
+    // 3.订阅信号,才会激活信号.
+    [_siganl subscribeNext:^(id x) {
+        // block调用时刻：每当有信号发出数据，就会调用block.
+        NSLog(@"接收到数据:%@",x);
+    }];
+}
 -(void)setSomeThing
 {
     objc_setAssociatedObject(self, (__bridge const void * _Nonnull)(key), @"100", OBJC_ASSOCIATION_RETAIN_NONATOMIC);
