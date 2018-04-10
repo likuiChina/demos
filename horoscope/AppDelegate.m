@@ -29,7 +29,7 @@
     [self setNavColor];
     
 //    [[AdManager shareAdManager] stepUp];
-    [[googleADmanage sharegoogleADmanage] stepUp];
+//    [[googleADmanage sharegoogleADmanage] stepUp];
     
 //    [[FBSDKApplicationDelegate sharedInstance] application:application
 //                             didFinishLaunchingWithOptions:launchOptions];

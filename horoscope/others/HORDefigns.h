@@ -12,6 +12,7 @@
 #import "UIButton+Action.h"
 #import "WSProgressHUD.h"
 #import "UIView+HPExtension.h"
+#import "NSArray+category.h"
 
 
 #define mNavBarHeight         44.0

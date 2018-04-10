@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BAA5F6DA5CE30FD56DD4DFE6 /* Pods_horoscope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB298085C963A23EC0253F9 /* Pods_horoscope.framework */; };
+		E911A82E206CCCA900A799DC /* coreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E911A82C206CCCA900A799DC /* coreDataModel.xcdatamodeld */; };
+		E92644EC207C65BF0003A74F /* test8.m in Sources */ = {isa = PBXBuildFile; fileRef = E92644EB207C65BF0003A74F /* test8.m */; };
 		E92A88AC2020548300DF9475 /* UIButton+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = E92A88A72020548200DF9475 /* UIButton+Action.m */; };
 		E92A88AD2020548300DF9475 /* UIViewController+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E92A88A92020548200DF9475 /* UIViewController+HPExtension.m */; };
 		E92A88AE2020548300DF9475 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E92A88AB2020548300DF9475 /* UIColor+HexColor.m */; };
@@ -42,12 +44,14 @@
 		E95E19B61FD1420200370FB2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94BF85B1FC555300034B214 /* SystemConfiguration.framework */; };
 		E95E19BC1FD1429D00370FB2 /* AdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E95E19BB1FD1429D00370FB2 /* AdManager.m */; };
 		E96526091FF3513D0099FD31 /* UIView+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E96526081FF3513D0099FD31 /* UIView+HPExtension.m */; };
+		E969E176206B79A20017FF80 /* drawView6.m in Sources */ = {isa = PBXBuildFile; fileRef = E969E175206B79A20017FF80 /* drawView6.m */; };
+		E96FAC5E206E3C38008D45C8 /* LKBigButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E96FAC5D206E3C38008D45C8 /* LKBigButton.m */; };
 		E97627D6206A53970031928A /* test7.m in Sources */ = {isa = PBXBuildFile; fileRef = E97627D5206A53970031928A /* test7.m */; };
 		E97627D9206A53A70031928A /* test6.m in Sources */ = {isa = PBXBuildFile; fileRef = E97627D8206A53A70031928A /* test6.m */; };
 		E9AA9250204E6B9400B8344B /* test5.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AA924F204E6B9400B8344B /* test5.m */; };
 		E9C3DB3A1FE264D900C02716 /* googleADmanage.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C3DB391FE264D900C02716 /* googleADmanage.m */; };
+		E9C7736D2079C67600C4BAB8 /* NSArray+category.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C7736C2079C67600C4BAB8 /* NSArray+category.m */; };
 		E9D4E2E61FE3AFE900CB9FC3 /* test4.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D4E2E51FE3AFE900CB9FC3 /* test4.m */; };
-		E9F19AF9203FEEF2006D6542 /* libLkSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F19AF7203FEEF2006D6542 /* libLkSdk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +88,9 @@
 		13EE99EBB1EE5805B449135D /* Pods-horoscope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscope.debug.xcconfig"; path = "Pods/Target Support Files/Pods-horoscope/Pods-horoscope.debug.xcconfig"; sourceTree = "<group>"; };
 		4F4CA1FC3E130C91EDD2D65C /* Pods-horoscope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscope.release.xcconfig"; path = "Pods/Target Support Files/Pods-horoscope/Pods-horoscope.release.xcconfig"; sourceTree = "<group>"; };
 		7FB298085C963A23EC0253F9 /* Pods_horoscope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_horoscope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E911A82D206CCCA900A799DC /* coreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		E92644EA207C65BF0003A74F /* test8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test8.h; sourceTree = "<group>"; };
+		E92644EB207C65BF0003A74F /* test8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test8.m; sourceTree = "<group>"; };
 		E92A88A62020548200DF9475 /* UIButton+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Action.h"; sourceTree = "<group>"; };
 		E92A88A72020548200DF9475 /* UIButton+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Action.m"; sourceTree = "<group>"; };
 		E92A88A82020548200DF9475 /* UIViewController+HPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HPExtension.h"; sourceTree = "<group>"; };
@@ -160,6 +167,10 @@
 		E95E19BB1FD1429D00370FB2 /* AdManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdManager.m; sourceTree = "<group>"; };
 		E96526071FF3513D0099FD31 /* UIView+HPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HPExtension.h"; sourceTree = "<group>"; };
 		E96526081FF3513D0099FD31 /* UIView+HPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HPExtension.m"; sourceTree = "<group>"; };
+		E969E174206B79A20017FF80 /* drawView6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawView6.h; sourceTree = "<group>"; };
+		E969E175206B79A20017FF80 /* drawView6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawView6.m; sourceTree = "<group>"; };
+		E96FAC5C206E3C38008D45C8 /* LKBigButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKBigButton.h; sourceTree = "<group>"; };
+		E96FAC5D206E3C38008D45C8 /* LKBigButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKBigButton.m; sourceTree = "<group>"; };
 		E97627D4206A53970031928A /* test7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test7.h; sourceTree = "<group>"; };
 		E97627D5206A53970031928A /* test7.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test7.m; sourceTree = "<group>"; };
 		E97627D7206A53A70031928A /* test6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test6.h; sourceTree = "<group>"; };
@@ -168,10 +179,10 @@
 		E9AA924F204E6B9400B8344B /* test5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test5.m; sourceTree = "<group>"; };
 		E9C3DB381FE264D900C02716 /* googleADmanage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = googleADmanage.h; sourceTree = "<group>"; };
 		E9C3DB391FE264D900C02716 /* googleADmanage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleADmanage.m; sourceTree = "<group>"; };
+		E9C7736B2079C67600C4BAB8 /* NSArray+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+category.h"; sourceTree = "<group>"; };
+		E9C7736C2079C67600C4BAB8 /* NSArray+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+category.m"; sourceTree = "<group>"; };
 		E9D4E2E41FE3AFE900CB9FC3 /* test4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test4.h; sourceTree = "<group>"; };
 		E9D4E2E51FE3AFE900CB9FC3 /* test4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test4.m; sourceTree = "<group>"; };
-		E9F19AF7203FEEF2006D6542 /* libLkSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLkSdk.a; sourceTree = "<group>"; };
-		E9F19AF8203FEEF2006D6542 /* LkSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LkSdk.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,7 +199,6 @@
 				E94BF8561FC5539A0034B214 /* FBSDKCoreKit.framework in Frameworks */,
 				E94BF8571FC5539A0034B214 /* FBSDKLoginKit.framework in Frameworks */,
 				E95E19AC1FD141C100370FB2 /* libxml2.tbd in Frameworks */,
-				E9F19AF9203FEEF2006D6542 /* libLkSdk.a in Frameworks */,
 				E95E19AA1FD141B900370FB2 /* libsqlite3.0.tbd in Frameworks */,
 				E94BF8541FC5539A0034B214 /* FBSDKShareKit.framework in Frameworks */,
 				E94BF8551FC5539A0034B214 /* Bolts.framework in Frameworks */,
@@ -222,11 +232,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E911A829206CCC8A00A799DC /* files */ = {
+			isa = PBXGroup;
+			children = (
+				E911A82A206CCC8A00A799DC /* data */,
+				E911A82B206CCC8A00A799DC /* image */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		E911A82A206CCC8A00A799DC /* data */ = {
+			isa = PBXGroup;
+			children = (
+				E911A82C206CCCA900A799DC /* coreDataModel.xcdatamodeld */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		E911A82B206CCC8A00A799DC /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		E92A88AF2020549100DF9475 /* otherFile */ = {
 			isa = PBXGroup;
 			children = (
 				E92A88B0202054A100DF9475 /* testTools.h */,
 				E92A88B1202054A100DF9475 /* testTools.m */,
+				E96FAC5C206E3C38008D45C8 /* LKBigButton.h */,
+				E96FAC5D206E3C38008D45C8 /* LKBigButton.m */,
 			);
 			path = otherFile;
 			sourceTree = "<group>";
@@ -256,6 +292,7 @@
 		E94BF8001FC5233A0034B214 /* horoscope */ = {
 			isa = PBXGroup;
 			children = (
+				E911A829206CCC8A00A799DC /* files */,
 				E95E19B91FD1428600370FB2 /* models */,
 				E94BF83A1FC524390034B214 /* others */,
 				E94BF8331FC5238A0034B214 /* test1 */,
@@ -335,7 +372,6 @@
 		E94BF84B1FC5504F0034B214 /* files */ = {
 			isa = PBXGroup;
 			children = (
-				E9F19AF6203FEEF2006D6542 /* TEST */,
 				E94BF8511FC5539A0034B214 /* Bolts.framework */,
 				E94BF8521FC5539A0034B214 /* FBSDKCoreKit.framework */,
 				E94BF8531FC5539A0034B214 /* FBSDKLoginKit.framework */,
@@ -402,6 +438,8 @@
 				E92A88A92020548200DF9475 /* UIViewController+HPExtension.m */,
 				E96526071FF3513D0099FD31 /* UIView+HPExtension.h */,
 				E96526081FF3513D0099FD31 /* UIView+HPExtension.m */,
+				E9C7736B2079C67600C4BAB8 /* NSArray+category.h */,
+				E9C7736C2079C67600C4BAB8 /* NSArray+category.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -415,19 +453,14 @@
 				E94A31E72062284B00BCF2E9 /* Stest6.swift */,
 				E97627D7206A53A70031928A /* test6.h */,
 				E97627D8206A53A70031928A /* test6.m */,
+				E969E174206B79A20017FF80 /* drawView6.h */,
+				E969E175206B79A20017FF80 /* drawView6.m */,
 				E97627D4206A53970031928A /* test7.h */,
 				E97627D5206A53970031928A /* test7.m */,
+				E92644EA207C65BF0003A74F /* test8.h */,
+				E92644EB207C65BF0003A74F /* test8.m */,
 			);
 			path = "test5-10";
-			sourceTree = "<group>";
-		};
-		E9F19AF6203FEEF2006D6542 /* TEST */ = {
-			isa = PBXGroup;
-			children = (
-				E9F19AF7203FEEF2006D6542 /* libLkSdk.a */,
-				E9F19AF8203FEEF2006D6542 /* LkSdk.h */,
-			);
-			path = TEST;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -644,6 +677,7 @@
 				E94827BE1FD0FFAB00DB7408 /* test3.m in Sources */,
 				E97627D9206A53A70031928A /* test6.m in Sources */,
 				E94A31E82062284B00BCF2E9 /* Stest6.swift in Sources */,
+				E9C7736D2079C67600C4BAB8 /* NSArray+category.m in Sources */,
 				E95E19BC1FD1429D00370FB2 /* AdManager.m in Sources */,
 				E96526091FF3513D0099FD31 /* UIView+HPExtension.m in Sources */,
 				E94BF8111FC5233B0034B214 /* main.m in Sources */,
@@ -654,7 +688,11 @@
 				E94827BB1FD0FF9E00DB7408 /* test2.m in Sources */,
 				E92A88AD2020548300DF9475 /* UIViewController+HPExtension.m in Sources */,
 				E94BF8031FC5233B0034B214 /* AppDelegate.m in Sources */,
+				E911A82E206CCCA900A799DC /* coreDataModel.xcdatamodeld in Sources */,
 				E94BF8361FC523BC0034B214 /* BaseViewControl.m in Sources */,
+				E96FAC5E206E3C38008D45C8 /* LKBigButton.m in Sources */,
+				E969E176206B79A20017FF80 /* drawView6.m in Sources */,
+				E92644EC207C65BF0003A74F /* test8.m in Sources */,
 				E92A88AC2020548300DF9475 /* UIButton+Action.m in Sources */,
 				E94BF8391FC523ED0034B214 /* test1.m in Sources */,
 				E94827C11FD1006E00DB7408 /* test0.m in Sources */,
@@ -985,6 +1023,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E911A82C206CCCA900A799DC /* coreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E911A82D206CCCA900A799DC /* coreDataModel.xcdatamodel */,
+			);
+			currentVersion = E911A82D206CCCA900A799DC /* coreDataModel.xcdatamodel */;
+			path = coreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E94BF7F61FC5233A0034B214 /* Project object */;
 }

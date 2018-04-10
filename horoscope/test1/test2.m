@@ -8,7 +8,7 @@
 
 #import "test2.h"
 #import "googleADmanage.h"
-#import "LkSdk.h"
+//#import "LkSdk.h"
 
 
 @interface test2 ()
@@ -48,7 +48,7 @@
         case 100:
         {
 //            [WSProgressHUD showWithStatus:@"000"];
-            [LkSdk showAlert];
+//            [LkSdk showAlert];
 
         }
             break;

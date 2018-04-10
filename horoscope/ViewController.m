@@ -14,6 +14,7 @@
 #import "test5.h"
 //#import "horoscope-Bridging-Header.h"
 
+static NSInteger createBtnNum = 9;
 
 @interface ViewController ()
 
@@ -26,7 +27,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.view.backgroundColor = [UIColor whiteColor];
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < createBtnNum; i++)
     {
         [self createBtntag:i];
     }
@@ -60,12 +61,9 @@
     NSInteger btnTag = button.tag - 100;
     if (btnTag == 5) {
         
-        
-        
 //        Stest6 *test6 = [[Stest6 alloc]init];
 //        [test6 testshow]
     }
-    
     
     NSString *strName = [NSString stringWithFormat:@"test%@",@(btnTag)];
     
