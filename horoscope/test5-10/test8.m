@@ -11,7 +11,7 @@
 @interface test8 ()
 
 @property(nonatomic, strong)UICollectionView *collectionView;
-@property(nonatomic, strong)CustomCollectionViewLayout *customLayout;
+//@property(nonatomic, strong)CustomCollectionViewLayout *customLayout;
 
 @end
 
@@ -24,12 +24,12 @@
 
 - (void)loadCollectionView
 {
-    _customLayout = [[CustomCollectionViewLayout alloc] init]; // 自定义的布局对象
-    _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:_customLayout];
-    _collectionView.backgroundColor = [UIColor whiteColor];
-    _collectionView.dataSource = self;
-    _collectionView.delegate = self;
-    [self.view addSubview:_collectionView];
+//    _customLayout = [[CustomCollectionViewLayout alloc] init]; // 自定义的布局对象
+//    _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:_customLayout];
+//    _collectionView.backgroundColor = [UIColor whiteColor];
+//    _collectionView.dataSource = self;
+//    _collectionView.delegate = self;
+//    [self.view addSubview:_collectionView];
     
     // 注册cell、sectionHeader、sectionFooter
 //    [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:cellId];
