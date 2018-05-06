@@ -30,17 +30,34 @@
     
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    //这是609563182的
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+UIWindow *window1;
+
 -(void)buttonClick:(UIButton *)button
 {
     NSLog(@"子类实现了-->>%@",@(button.tag));
+    
+    
+    
     switch (button.tag) {
         case 100:
         {
+            UITextView *tmpTextview ;
+            
+//            tmpTextview.hasText
+            
+            
             [self performSelector:@selector(hahha) withObject:nil afterDelay:0.1];
             
         }
@@ -49,14 +66,30 @@
         {
 //            [self getCustomClass];
             
+            if (!window1) {
+                window1 = [[UIWindow alloc] init];
+            }
+            
+            window1.frame = CGRectMake(200, 100, 100, 100);
+            window1.backgroundColor = [[UIColor yellowColor] colorWithAlphaComponent:0.4];
+            window1.hidden = NO;
             
             
-            
+            UIButton *btn1;
+//            btn1.titleEdgeInsets = UIEdgeInsetsMake(<#CGFloat top#>, <#CGFloat left#>, <#CGFloat bottom#>, <#CGFloat right#>)
         }
             break;
         case 102:
         {
             //            [self testSegiel];
+            
+            if (!window1) {
+                window1 = [[UIWindow alloc] init];
+            }
+            
+            window1.frame = CGRectMake(100, 100, 200, 100);
+            window1.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.4];
+            window1.hidden = NO;
         }
             break;
         case 103:

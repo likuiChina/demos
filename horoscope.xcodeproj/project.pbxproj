@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2B2DDD2099F3D900B7896E /* UIImage+LKExtersion.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2B2DDC2099F3D900B7896E /* UIImage+LKExtersion.m */; };
 		BAA5F6DA5CE30FD56DD4DFE6 /* Pods_horoscope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB298085C963A23EC0253F9 /* Pods_horoscope.framework */; };
 		E911A82E206CCCA900A799DC /* coreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E911A82C206CCCA900A799DC /* coreDataModel.xcdatamodeld */; };
 		E92644EC207C65BF0003A74F /* test8.m in Sources */ = {isa = PBXBuildFile; fileRef = E92644EB207C65BF0003A74F /* test8.m */; };
@@ -88,6 +89,8 @@
 		13EE99EBB1EE5805B449135D /* Pods-horoscope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscope.debug.xcconfig"; path = "Pods/Target Support Files/Pods-horoscope/Pods-horoscope.debug.xcconfig"; sourceTree = "<group>"; };
 		4F4CA1FC3E130C91EDD2D65C /* Pods-horoscope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-horoscope.release.xcconfig"; path = "Pods/Target Support Files/Pods-horoscope/Pods-horoscope.release.xcconfig"; sourceTree = "<group>"; };
 		7FB298085C963A23EC0253F9 /* Pods_horoscope.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_horoscope.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2B2DDB2099F3D900B7896E /* UIImage+LKExtersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LKExtersion.h"; sourceTree = "<group>"; };
+		AD2B2DDC2099F3D900B7896E /* UIImage+LKExtersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LKExtersion.m"; sourceTree = "<group>"; };
 		E911A82D206CCCA900A799DC /* coreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		E92644EA207C65BF0003A74F /* test8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test8.h; sourceTree = "<group>"; };
 		E92644EB207C65BF0003A74F /* test8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test8.m; sourceTree = "<group>"; };
@@ -440,6 +443,8 @@
 				E96526081FF3513D0099FD31 /* UIView+HPExtension.m */,
 				E9C7736B2079C67600C4BAB8 /* NSArray+category.h */,
 				E9C7736C2079C67600C4BAB8 /* NSArray+category.m */,
+				AD2B2DDB2099F3D900B7896E /* UIImage+LKExtersion.h */,
+				AD2B2DDC2099F3D900B7896E /* UIImage+LKExtersion.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -689,6 +694,7 @@
 				E92A88AD2020548300DF9475 /* UIViewController+HPExtension.m in Sources */,
 				E94BF8031FC5233B0034B214 /* AppDelegate.m in Sources */,
 				E911A82E206CCCA900A799DC /* coreDataModel.xcdatamodeld in Sources */,
+				AD2B2DDD2099F3D900B7896E /* UIImage+LKExtersion.m in Sources */,
 				E94BF8361FC523BC0034B214 /* BaseViewControl.m in Sources */,
 				E96FAC5E206E3C38008D45C8 /* LKBigButton.m in Sources */,
 				E969E176206B79A20017FF80 /* drawView6.m in Sources */,

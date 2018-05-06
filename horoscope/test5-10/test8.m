@@ -37,6 +37,14 @@
 //    [_collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:footerId];
 }
 
+-(void)buttonClick:(UIButton *)button
+{
+    NSLog(@"子类实现了-->>%@",@(button.tag));
+    
+    
+}
+
+
 
 
 - (void)didReceiveMemoryWarning {

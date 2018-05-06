@@ -17,10 +17,16 @@
 static NSInteger createBtnNum = 9;
 
 @interface ViewController ()
+{
+    UIWindow *window1;
+}
 
 @end
 
 @implementation ViewController
+
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,6 +43,8 @@ static NSInteger createBtnNum = 9;
     [self setBtnTag:102 withName:@"google AD"];
     [self setBtnTag:103 withName:@"searchBar"];
     [self setBtnTag:104 withName:@"pop animal"];
+    
+    
 }
 
 -(void)createBtntag:(NSInteger)tag
@@ -56,8 +64,15 @@ static NSInteger createBtnNum = 9;
     [self.view addSubview:btn1];
 }
 
+
+
 -(void)buttonClick:(UIButton *)button
 {
+//    window1 = [[UIWindow alloc] init];
+//    window1.frame = CGRectMake(200, 100, 100, 100);
+//    window1.backgroundColor = [[UIColor yellowColor] colorWithAlphaComponent:0.4];
+//    window1.hidden = NO;
+    
     NSInteger btnTag = button.tag - 100;
     if (btnTag == 5) {
         

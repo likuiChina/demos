@@ -6,8 +6,8 @@
 //  Copyright © 2018年 LK. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewControl.h"
 
-@interface test8 : UIViewController
+@interface test8 : BaseViewControl
 
 @end
