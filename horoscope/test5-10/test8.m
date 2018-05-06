@@ -37,7 +37,58 @@
 //    [_collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:footerId];
 }
 
-
+-(void)buttonClick:(UIButton *)button
+{
+    NSLog(@"子类实现了-->>%@",@(button.tag));
+    switch (button.tag) {
+        case 100:
+        {
+            [self performSelector:@selector(hahha) withObject:nil afterDelay:0.1];
+            
+        }
+            break;
+        case 101:
+        {
+            //            [self getCustomClass];
+                    
+            
+        }
+            break;
+        case 102:
+        {
+            //            [self testSegiel];
+        }
+            break;
+        case 103:
+        {
+            //            [self testRac];
+            
+            NSArray *placeholder = [NSArray alloc];
+            NSArray *arr1 = [placeholder init];
+            NSArray *arr2 = [placeholder initWithObjects:@0, nil];
+            NSArray *arr3 = [placeholder initWithObjects:@0, @1, nil];
+            NSArray *arr4 = [placeholder initWithObjects:@0, @1, @2, nil];
+            
+            NSLog(@"placeholder: %s", object_getClassName(placeholder));    // placeholder: __NSPlaceholderArray
+            NSLog(@"arr1: %s", object_getClassName(arr1));                  // arr1: __NSArray0
+            NSLog(@"arr2: %s", object_getClassName(arr2));                  // arr2: __NSSingleObjectArrayI
+            NSLog(@"arr3: %s", object_getClassName(arr3));                  // arr3: __NSArrayI
+            NSLog(@"arr4: %s", object_getClassName(arr4));                  // arr4: __NSArrayI
+            
+        }
+            break;
+        case 104:
+        {
+            
+        }
+            break;
+        default:
+        {
+            
+        }
+            break;
+    }
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
